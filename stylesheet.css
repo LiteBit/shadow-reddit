@@ -2761,7 +2761,7 @@
 
 	
 		/* Sidebar on low-res screens */
-		@media (max-device-width: 640px), (max-width: 640px){
+		@media (max-device-width: 220px), (max-width: 220px){
 
 		.content {margin-top: 144px;}
 
@@ -3112,7 +3112,7 @@ background-color: #1C1C1C; /* Color behind caption */
 /* END ADDON */
 
 /* --- Addon: Header Background Image --- */
-.content:before {height: 332px; background: #393D41 url(%%headerimg%%) fixed no-repeat 33% 0}
+.content:before {height: 332px; background: #E5E5E5 url(%%headerimg%%) fixed no-repeat 33% 0}
     @media only screen and (min-width : 1921px) {.content:before {background-size: cover;}}
 
         /* Add or subtract THE SAME AMOUNT ON EACH OF THESE */
@@ -3145,7 +3145,7 @@ background-color: #1C1C1C; /* Color behind caption */
 
 #header .pagename a {
 margin-top:    110px; /* Space from top */
-left:          -110px;     /* Space from left */
+left:          -150px;     /* Space from left */
 width:         453px; /* Width of image */
 height:        120px;  /* Half the height of your image */
 }
@@ -3165,18 +3165,32 @@ background-position:0 -0px /* Half the height of your image */
     background: url(%%github%%) center center no-repeat;
 }
 
-.side .md h5 a[title="win"] {
+.side .md h5 a[title="win32"] {
     display: inline-block;
-    width: 28px; /* width of button image */
+    width: 53px; /* width of button image */
     height: 28px; /* height of button image */
-    background: url(%%win%%) center center no-repeat;
+    background: url(%%win32%%) center center no-repeat;
 }
 
-.side .md h5 a[title="linux"] {
+.side .md h5 a[title="win64"] {
     display: inline-block;
-    width: 29px; /* width of button image */
+    width: 53px; /* width of button image */
     height: 28px; /* height of button image */
-    background: url(%%linux%%) center center no-repeat;
+    background: url(%%win64%%) center center no-repeat;
+}
+
+.side .md h5 a[title="linux32"] {
+    display: inline-block;
+    width: 53px; /* width of button image */
+    height: 28px; /* height of button image */
+    background: url(%%linux32%%) center center no-repeat;
+}
+
+.side .md h5 a[title="linux64"] {
+    display: inline-block;
+    width: 53px; /* width of button image */
+    height: 28px; /* height of button image */
+    background: url(%%linux64%%) center center no-repeat;
 }
 
 .side .md h5 a[title="apple"] {
@@ -3192,30 +3206,44 @@ background-position:0 -0px /* Half the height of your image */
 
 .side .md h5 a[title="facebook"] {
     display: inline-block;
-    width: 24px; /* width of button image */
-    height: 24px; /* height of button image */
+    width: 28px; /* width of button image */
+    height: 28px; /* height of button image */
     background: url(%%facebook%%) center center no-repeat;
 }
 
 .side .md h5 a[title="google"] {
     display: inline-block;
-    width: 24px; /* width of button image */
-    height: 24px; /* height of button image */
+    width: 28px; /* width of button image */
+    height: 28px; /* height of button image */
     background: url(%%google%%) center center no-repeat;
 }
 
 .side .md h5 a[title="twitter"] {
     display: inline-block;
-    width: 30px; /* width of button image */
-    height: 24px; /* height of button image */
+    width: 34px; /* width of button image */
+    height: 28px; /* height of button image */
     background: url(%%twitter%%) center center no-repeat;
 }
 
 .side .md h5 a[title="youtube"] {
     display: inline-block;
-    width: 28px; /* width of button image */
-    height: 24px; /* height of button image */
+    width: 36px; /* width of button image */
+    height: 28px; /* height of button image */
     background: url(%%youtube%%) center center no-repeat;
+}
+
+.side .md h5 a[title="sdc"] {
+    display: inline-block;
+    width: 28px; /* width of button image */
+    height: 28px; /* height of button image */
+    background: url(%%sdc%%) center center no-repeat;
+}
+
+.side .md h5 a[title="slack"] {
+    display: inline-block;
+    width: 28px; /* width of button image */
+    height: 28px; /* height of button image */
+    background: url(%%slack%%) center center no-repeat;
 }
 /* End Addon */
 
