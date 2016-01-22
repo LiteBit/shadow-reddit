@@ -1,4 +1,4 @@
-	/*
+		/*
 			Stylesheet based on a custom template made by /u/Cryptonaut. 
 			Find out more on /r/Naut. (V.3)
 
@@ -783,11 +783,13 @@
 						line-height: 14px;
 					        font-size: 17px;
                                                 margin: 10px -17px 5px 0px;
-                                                background-color: #303030;
-                                                color: #FFFFFF;
+                                                background-color: #E41C39;
+                                                color: #F7F7F7;
                                                 padding: 5px 0px 17px 20px;
                                                 z-index: 100;
                                                 height: 13px;
+                                                border: none;
+						border-radius: 13px 0px 0px 13px;
 					}
 
 					.side .titlebox .md h2 {
@@ -1377,8 +1379,8 @@
 							border-radius: 2px 2px 0px 0px;
 						}
 
-							.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #65b354!important;}					
-							.thing.stickied .expando-button:hover {background-color: #65b354!important;border-color: #65b354!important;}
+							.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #E5E5E5!important;}					
+							.thing.stickied .expando-button:hover {background-color: #E5E5E5!important;border-color: #E5E5E5!important;}
 							.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 							.thing.stickied .domain {display: none;}
 
@@ -3228,4 +3230,8 @@ background-position:0 -0px /* Half the height of your image */
 
 .linklisting .odd {
     background-color: #F7F7F7 !important;
+}
+
+.linklisting .stickied {
+    background-color: #1C1C1C !important;
 }
