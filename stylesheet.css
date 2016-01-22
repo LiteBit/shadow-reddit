@@ -3223,9 +3223,9 @@ background-position:0 -0px /* Half the height of your image */
 /* Alternating Background Colors */
 
 .linklisting .even {
-    background-color: #F7F7F7 !important;
+    background-color: #F9F9F9 !important;
 }
 
 .linklisting .odd {
-    background-color: #F9F9F9 !important;
+    background-color: #F7F7F7 !important;
 }
