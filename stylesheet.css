@@ -74,7 +74,7 @@
 
 				.btn:hover, button:hover {
 					box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.34);
-					background-color: #5A72EE;
+					background-color: #E41C39;
 				}
 
 					.btn:active, button:active {
@@ -192,7 +192,7 @@
 			 			font-weight: bold;
 			 			position: relative;
 			 			top: 3px;
-			 			font-family: arial;
+			 			font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 			 			margin: 0 4px;
 			 			vertical-align: top;
 			 			transition: background-color 0.25s ease;
@@ -234,7 +234,7 @@
 							text-transform: uppercase;
 							font-weight: normal;
 							font-size: 14px;
-							font-family: Arial, sans-serif;
+							font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 							transition: color 0.25s ease, background-color 0.25s ease;
 						}
 
@@ -355,7 +355,7 @@
 								content: "You have new messages!";
 								text-indent: 0px;
 								font-size: 14px;
-								font-family: arial, sans-serif;
+								font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 								line-height: 1;
 								-webkit-transform:translateY(112px);
 								transform:translateY(112px);
@@ -412,7 +412,7 @@
 
 						text-transform: none;
 						font-size: 16px;
-						font-family: arial,sans-serif;
+						font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 						position: absolute;
 						width: 300px;
 						text-align: center;
@@ -541,11 +541,11 @@
 					text-align: left;
 					padding: 0px 16px;
 					transition: all 0.25s ease;
-					font-family: verdana, arial, sans-serif;
+					font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 				}	
 
 					.morelink:hover {
-						background-color: #5a72ee;
+						background-color: #E41C39;
 						box-shadow: 0px 5px 8px rgba(0,0,0,0.48);
 					}
 
@@ -684,7 +684,6 @@
 					border-radius: 32px;
 					background-color: #51A3E8;
 					border: 0px solid;
-					box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 					background-image: url(%%spritesheet%%);
 					transition: all 0.25s ease, background-position 0.25s ease, background-color 0.5s ease;
 					outline: none !important;
@@ -701,7 +700,7 @@
 						background-position: -209px -145px;
 					}
 
-						.titlebox .fancy-toggle-button .add:hover {background-color: #5A72EE;}
+						.titlebox .fancy-toggle-button .add:hover {background-color: #E41C39;}
 
 							.titlebox .fancy-toggle-button .add:active {
 								background-color: #fff;
@@ -709,15 +708,15 @@
 							}
 
 					.fancy-toggle-button .remove {
-						background-color: #BDBDBD;
+						background-color: #F7F7F7;
 						background-position: -208px -192px;
 					}
 
 						.fancy-toggle-button .remove:hover {background-color: rgba(0,0,0,0.05);}
 
 							.fancy-toggle-button .remove:active {
-								background-color: #5A72EE;
-								background-position: -208px -144px
+								background-color: #E41C39;
+								background-position: -209px -145px
 							}
 
 
@@ -775,7 +774,7 @@
 				.side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
 					color: #4D5763;
 					font-size: 13px;
-					font-family: Arial, sans-serif;
+					font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 					line-height: 1.3333333333333333em;
 				}
 
@@ -783,7 +782,7 @@
 						line-height: 14px;
 					        font-size: 17px;
                                                 margin: 10px -17px 5px 0px;
-                                                background-color: #E41C39;
+                                                background-color: #BDBDBD;
                                                 color: #F7F7F7;
                                                 padding: 5px 0px 17px 20px;
                                                 z-index: 100;
@@ -802,7 +801,7 @@
 						width: 100%;
 						border-radius: 2px;
 						background-color: #E41C39;
-						font-family: verdana,arial,sans-serif;
+						font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 						transition: all 0.25s ease;
 						color: #fff;
 						box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
@@ -812,7 +811,7 @@
 					}
 
 						.side .titlebox .md h3 a:hover {
-							background-color: #5A72EE;
+							background-color: #E41C39;
 							box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.54);
 						}
 
@@ -951,7 +950,7 @@
 								.link .score.dislikes {color: #981E2D;}
 
 							.arrow {
-								margin: 0px 0px 0px 2px;
+								margin: -3px 0px 0px 2px;
 								background-image: url(%%spritesheet%%) !important;
 								background-color: transparent;
 								width: 33px;
@@ -1037,7 +1036,7 @@
 							margin: 16px 16px 0px 0px;
 						}
 
-							.thumbnail a img, .thumbnail.self, .thumbnail.default {height: 56px;}
+							.thumbnail a img, .thumbnail.self, .thumbnail.default {height: 56px; margin: 12px 16px 0px 0px;}
 
 							.thumbnail.self 	{	background: url(%%spritesheet%%) -73px -80px;}
 							.thumbnail.default 	{	background: url(%%spritesheet%%) -143px -80px;}
@@ -1054,7 +1053,7 @@
 							font-style: normal;
 							font-variant: normal;
 							font-size: 13px;
-							font-family: Arial, sans-serif;
+							font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 							cursor: default;
 							vertical-align: middle;
 							position: relative;
@@ -1089,7 +1088,7 @@
 						.link .title {
 							margin: -2px 0px 0px 0px;
 							font-size: 18px;
-							font-family: Arial, sans-serif;
+							font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 							overflow: visible;
 							transition: all 0.15s ease;
 						}
@@ -1097,8 +1096,7 @@
 							body .content .sitetable .link .title a:hover {color: #E41C39;}
 
 							.link .entry {
-								padding: 15px 32px 14px 0px;
-								border-bottom: 1px solid #f2f2f2;
+								padding: 8px 32px 8px 0px;
 								margin-left: 0;
 							}
 
@@ -1134,7 +1132,7 @@
 							width: 16px;
 							height: 16px;
 							border-radius: 2px;
-							background-color: transparent;
+							background-color: #E5E5E5;
 							background-image: url(%%spritesheet%%) !important;
 							border: 1px solid #e9e9e9;
 							cursor: pointer;
@@ -1143,7 +1141,7 @@
 
 
 							.expando-button:hover {
-								background-color: #E41C39;
+								background-color: #BDBDBD;
 								border-color: #E41C39;
 							}
 
@@ -1196,7 +1194,7 @@
 							margin-top: 4px;
 							color: #b3b3b3;
 							font-size: 12px;
-							font-family: arial, sans-serif;
+							font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 							transition: all 0.15s ease;
 						}
 
@@ -1222,7 +1220,7 @@
 								cursor: help;
 							}
 
-								.link .entry .tagline .userattrs a.moderator {background-color: #65B354;}
+								.link .entry .tagline .userattrs a.moderator {background-color: #1C1C1C;}
 								
 
 
@@ -1247,7 +1245,7 @@
 								color: #b3b3b3;
 								font-weight: normal;
 								font-size: 13px;
-								font-family: Arial, sans-serif;
+								font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 								transition: all 0.15s ease;
 							}
 			
@@ -1328,7 +1326,7 @@
 										color: #b3b3b3;
 										font-weight: normal;
 										font-size: 13px;
-										font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+										font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 										transition: all 0.15s ease;
 									}
 
@@ -1380,7 +1378,7 @@
 						}
 
 							.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #E5E5E5!important;}					
-							.thing.stickied .expando-button:hover {background-color: #E5E5E5!important;border-color: #E5E5E5!important;}
+							.thing.stickied .expando-button:hover {background-color: #BDBDBD!important;border-color: #E5E5E5!important;}
 							.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 							.thing.stickied .domain {display: none;}
 
@@ -1705,7 +1703,7 @@
 							font-size: 12px;
 							pointer-events: none;
 							padding: 10px 16px 10px 16px;
-							background-color: #5A72EE;
+							background-color: #E41C39;
 							overflow: visible;
 							color: #FFF;
 						}
@@ -1987,7 +1985,7 @@
 								.comment .entry .tagline {
 									color: #b3b3b3;
 									font-size: 12px;
-									font-family: Arial, sans-serif;
+									font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 								}
 
 									.comment .expand {
@@ -2049,7 +2047,7 @@
 										margin-left: 4px;
 									}
 
-										.comment span.userattrs a {
+										.comment span.userattrs a {color: #E41C39;
 
 										}
 
@@ -2218,7 +2216,6 @@
 
 						.submit-page .infobar:before {
 							font-size: 14px;
-							content: "Please submit insightful content that allows for discussion!";
 							display: inline-block;
 						}
 
@@ -2354,7 +2351,7 @@
 					border-radius: 2px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 					font-size: 16px;
-					font-family: arial, sans-serif;
+					font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 					text-transform: capitalize;
 					margin: 0;
 				}
@@ -2520,7 +2517,7 @@
 					border: none;
 					border-radius: 0px;
 					font-size: 12px;
-					font-family: arial, sans-serif;
+					font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 					font-weight: normal;
 					background-color: transparent;
 					color: #B3B3B3;
@@ -2598,7 +2595,7 @@
 					background-color: rgba(0, 0, 0, 0);
 					line-height: inherit;
 					font-size: 11px;
-					font-family: verdana,arial,sans-serif;
+					font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 					box-shadow: none;
 					font-weight: normal;
 					color: #4D5763;
@@ -2995,7 +2992,7 @@
 
 ==================================================================================================================================*/
 /* --- Addon: Header Color (Primary Color) --- */
-.content:before {background-color: #383947}
+.content:before {background-color: #E5E5E5}
 /* --- End Addon --- */
 
 
@@ -3004,7 +3001,7 @@
 .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, 
 .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active
 .expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a,
-.res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {background-color: #e31e38}
+.res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {background-color: #981E2D}
 
     /* Hover color = 10% white overlay color */
     .morelink:hover, .submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover, .btn:hover, button:hover,
@@ -3039,7 +3036,7 @@ body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .ent
     .linefield, .drop-choices, .hover-bubble, .search-page .searchpane, .content.submit .info-notice, 
     .submit-page #newlink.submit.content .tabmenu.formtab a, .flairselector:before, .flairselector, .comments-page .side .linkinfo,
     .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
-    {background-color: #F7F7F9;}
+    {background-color: #F7F7F7;}
 
     .res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, 
     .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment
@@ -3225,7 +3222,7 @@ background-position:0 -0px /* Half the height of your image */
 /* Alternating Background Colors */
 
 .linklisting .even {
-    background-color: #F9F9F9 !important;
+    background-color: #FFFFFF !important;
 }
 
 .linklisting .odd {
@@ -3235,3 +3232,42 @@ background-position:0 -0px /* Half the height of your image */
 .linklisting .stickied {
     background-color: #1C1C1C !important;
 }
+
+/* override focus */
+:focus {
+    outline-color: #981E2D;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+/* dashed comment lines */
+    .comment .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.69) !important;
+    }
+    .comment .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.59) !important;
+    }
+    .comment .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.49) !important;
+    }
+    .comment .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.39) !important;
+    }
+    .comment .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.29) !important;
+    }
+    .comment .child .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.19) !important;
+    }
+    .comment .child .child .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
+    }
+    .comment .child .child .child .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
+    }
+    .comment .child .child .child .child .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
+    }
+    .comment .child .child .child .child .child .child .child .child .child .child {
+      border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
+    }
