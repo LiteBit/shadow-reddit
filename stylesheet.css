@@ -1376,10 +1376,10 @@
 						.thing.stickied {
 							border-radius: 2px 2px 0px 0px;
 						}
-
-							.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #E5E5E5!important;}					
+			
+							.thing.stickied.link a.title { font-weight: bold; color: black; }
 							.thing.stickied .expando-button:hover {background-color: #BDBDBD!important;border-color: #E5E5E5!important;}
-							.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
+							.tagline .stickied-tagline {color: #E31E38 !important; cursor: help;}
 							.thing.stickied .domain {display: none;}
 
 						/* Ad */
@@ -3258,7 +3258,7 @@ background-position:0 -0px /* Half the height of your image */
 }
 
 .linklisting .stickied {
-    background-color: #1C1C1C !important;
+    border-left: 5px solid #E31E38;
 }
 
 /* override focus */
