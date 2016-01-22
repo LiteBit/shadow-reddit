@@ -1,24 +1,12 @@
 	/*
-			Version 3.1
-			Stylesheet by Cryptonaut
-			Last modified: 26 MAR 2015
-			Details: This is a custom template made by /u/Cryptonaut. 
-			Find out more on /r/Naut.
+			Stylesheet based on a custom template made by /u/Cryptonaut. 
+			Find out more on /r/Naut. (V.3)
 
 			--------------------------------------------------------------------------
 			[Changelog]
 			v1.0 - Initial Design - /r/Naut Template
-			v1.5 - Update 1 - New colours, icons and a whole bunch of fixes.
-			V1.6 - Update 2 - Adjustments to make Naut come back to the reddit UX.
-			V1.7 - Update 3 - A whole lot of UI tweaks and fixes.
-			V2.0 - Update 4 - Naut is now on GitHub, added nightmode and some fixes.
-			V2.1 - Update 5 - Initial CSS3 update - Added transitions and minor responsive tweaks.
-			V2.2 - Update 6 - Bugfixes and the return of the suggest-title button.
-			V2.3 - Update 7 - Bugfixes, including the search button.
-			V3.0 - Update 8 - Complete rewrite to include easier customizing of colours, 
-							  sizes and margins, more transitions and animations and
-							  much more. See /r/Naut for more
-			V3.1 - Update 9 - Many bugfixes and some changes for easier customization
+			v1.1 - Update 1 - Dark Theme by u/Cryptonaut
+			V1.2 - Update 2 - A whole lot of UI tweaks.
 
 
 			-------------------------------------------------------------------------- */
@@ -3231,3 +3219,13 @@ background-position:0 -0px /* Half the height of your image */
     background: url(%%youtube%%) center center no-repeat;
 }
 /* End Addon */
+
+/* Alternating Background Colors */
+
+.linklisting .even {
+    background-color: #F7F7F7 !important;
+}
+
+.linklisting .odd {
+    background-color: #F9F9F9 !important;
+}
