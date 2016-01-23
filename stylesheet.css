@@ -541,6 +541,7 @@ body {
 						font-weight: normal;
 						font-size: 14px;
 						letter-spacing: 0px;
+                                                text-transform: uppercase;
 					}
 
 
@@ -1123,7 +1124,7 @@ body {
 
 							.expando-button:hover {
 								background-color: #BDBDBD;
-								border-color: #E41C39;
+								border-color: #E5E5E5;
 							}
 
 							.expando-button.selftext.collapsed 					{background-position: -32px -32px;}
@@ -1235,9 +1236,9 @@ body {
 								.nsfw-stamp acronym {
 									padding: 2px 3px;
 									background-color: transparent;
-									border-color: #e82e63 !important;
+									border-color: #E41C39 !important;
 									border-radius: 2px;
-									color:#e82e63;
+									color:#E41C39;
 									opacity: 100;
 									cursor: help;
 								}
@@ -1360,7 +1361,7 @@ body {
 			
 							.thing.stickied.link a.title { font-weight: bold; color: black; }
 							.thing.stickied .expando-button:hover {background-color: #BDBDBD!important;border-color: #E5E5E5!important;}
-							.tagline .stickied-tagline {color: #E31E38 !important; cursor: help;}
+							.tagline .stickied-tagline {color: #E31E38 !important; cursor: help; text-transform: uppercase;}
 							.thing.stickied .domain {display: none;}
 
 						/* Ad */
@@ -2144,14 +2145,14 @@ body {
 					}
 
 						.submit-page #newlink.submit.content .tabmenu.formtab a {
-							padding: 16px;
-							width: 262px;
+							padding: 8px;
+							width: 175px;
 							display: inline-block;
 							text-align: center;
 							background-color: #fff;
 							color: #4D5763;
 							text-transform: uppercase;
-							font-weight: bold;
+							font-weight: lighter;
 							transition: all 0.25s ease;
 							font-size: 16px;
 							border: none;
@@ -2159,6 +2160,7 @@ body {
 
 							.submit-page #newlink.submit.content .tabmenu.formtab .selected a {
 								font-size: 16px;
+                                                                font-weight: lighter;
 								background-color: #E41C39;
 								color: #fff;
 							}
@@ -2184,11 +2186,12 @@ body {
 
 					.submit-page .infobar {
 						width: 524px;
+                                                height: 5px;
 						margin: 0;
-						padding: 16px;
+						padding: 0px;
 						color: #fff;
 						background-color: #E41C39;
-						border-radius: 0 0 2px 2px;
+						border-radius: 0 0 0px 0px;
 						border: none;
 						margin-top: -12px;
 						box-shadow:  0px 1px 5px rgba(0, 0, 0, 0.24);
@@ -2981,7 +2984,7 @@ body {
 .morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar,
 .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, 
 .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active
-.expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a,
+.expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .side .titlebox .md h3 a,
 .res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {background-color: #981E2D}
 
     /* Hover color = 10% white overlay color */
