@@ -3016,7 +3016,7 @@ body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .ent
 
     /* Card Color */
     .link, textarea, .side, .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4
-    .comments-page .side .linkinfo, .commentarea .thing, .stylesheet-customize-container .pretty-form, #images, .submit-page .roundfield,
+    .comments-page .side .linkinfo, .stylesheet-customize-container .pretty-form, #images, .submit-page .roundfield,
     .linefield, .drop-choices, .hover-bubble, .search-page .searchpane, .content.submit .info-notice, 
     .submit-page #newlink.submit.content .tabmenu.formtab a, .flairselector:before, .flairselector, .comments-page .side .linkinfo,
     .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
@@ -3284,3 +3284,4 @@ background-position:0 -0px /* Half the height of your image */
     .comment .child .child .child .child .child .child .child .child .child .child {
       border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
     }
+}
