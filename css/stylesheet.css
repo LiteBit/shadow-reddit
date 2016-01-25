@@ -3286,7 +3286,7 @@ background-position:0 -0px /* Half the height of your image */
     }
     
 /* link flair */
-.linkflairlabel {
+.linkflairlabel-a {
     padding: 1px 9px;
     height: 17px;
     border-radius: 10px;
@@ -3294,9 +3294,55 @@ background-position:0 -0px /* Half the height of your image */
     font-weight: lighter;
     font-style: normal;
     font-variant: normal;
-    font-size: 14px;
+    font-size: 12px;
     cursor: default;
     top: -2px;
     background-color: #BDBDBD;
     text-transform: uppercase;
+    display: table;
+}
+.linkflairlabel-b {
+    padding: 1px 9px;
+    height: 17px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px;
+    cursor: default;
+    top: -2px;
+    background-color: #6B6B6B;
+    text-transform: uppercase;
+    display: table;
+}
+.linkflairlabel-c {
+    padding: 1px 9px;
+    height: 17px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px;
+    cursor: default;
+    top: -2px;
+    background-color: #1C1C1C;
+    text-transform: uppercase;
+    display: table;
+}
+.linkflairlabel-d {
+    padding: 1px 9px;
+    height: 17px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px;
+    cursor: default;
+    top: -2px;
+    background-color: #E41C39;
+    text-transform: uppercase;
+    display: table;
 }
