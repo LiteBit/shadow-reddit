@@ -3216,7 +3216,7 @@ background-position:0 -0px /* Half the height of your image */
     background: url(%%youtube%%) center center no-repeat;
 }
 
-.side .md h5 a[title="sdc"] {
+.side .md h5 a[title="forum"] {
     display: inline-block;
     width: 28px; /* width of button image */
     height: 28px; /* height of button image */
