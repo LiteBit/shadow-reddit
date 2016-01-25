@@ -3284,3 +3284,19 @@ background-position:0 -0px /* Half the height of your image */
     .comment .child .child .child .child .child .child .child .child .child .child {
       border-left: 1px dashed hsla(337, 87%, 22%, 0.09) !important;
     }
+    
+/* link flair */
+.linkflairlabel {
+    padding: 1px 9px;
+    height: 17px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 14px;
+    cursor: default;
+    top: -2px;
+    background-color: #BDBDBD;
+    text-transform: uppercase;
+}
