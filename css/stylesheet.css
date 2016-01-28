@@ -3312,3 +3312,62 @@ background-position:0 -0px /* Half the height of your image */
 .thing.linkflair.linkflair-d .linkflairlabel {
     background-color: #E41C39;
 }
+
+/* shadowstats */
+.flair-shadowstats{
+    font-family:monospace;
+    font-weight:bold;
+    font-size:13px !important;
+    line-height:17px;
+    text-align:center;
+    color:black;
+    margin-top: 1px !important;
+    border-color: darkgray !important;
+    border-style: solid !important;
+    border-width: 0px 1px 1px !important;
+    border-radius: 0px !important;
+    padding:4px 4px 4px 4px;
+    background-color:rgb(240, 240, 240);
+    position:absolute;
+    top:18px;
+    left:198px;
+    z-index:1000;
+    width:83px;
+    height:64px;
+    /*filter:alpha(opacity=60) !important;
+    opacity:.60 !important;*/
+}
+
+div.entry span.flair-shadowstats{
+    font-family:monospace;
+    font-weight:bold;
+    font-size:13px !important;
+    line-height:17px;
+    text-align:center;
+    color:black;
+    margin-top: 1px !important;
+    border-color: darkgray !important;
+    border-style: solid !important;
+    border-width: 0px 1px 1px !important;
+    border-radius: 0px !important;
+    padding:4px 4px 4px 4px;
+    background-color:rgb(240, 240, 240);
+    position:absolute;
+    top:18px;
+    left:498px;
+    z-index:1000;
+    width:83px;
+    height:64px;
+    /*filter:alpha(opacity=60) !important;
+    opacity:.60 !important;*/
+    display:none;
+}
+
+.flair-shadowstats:before{
+    content: " ";
+    margin-top:2px;
+    float:left;
+    height:64px;
+    width:13px;
+    background-image:url(%%ticker-exchanges4%%);
+}
