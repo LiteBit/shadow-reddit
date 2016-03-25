@@ -3322,15 +3322,14 @@ background-position:0 -0px /* Half the height of your image */
     text-align:center;
     color:black;
     margin-top: 1px !important;
-    border-color: darkgray !important;
     border-style: solid !important;
     border-width: 0px 1px 1px !important;
     border-radius: 0px !important;
     padding:4px 4px 4px 4px;
-    background-color:rgb(240, 240, 240);
+    background-color: #E31E38;
     position:absolute;
-    top:18px;
-    left:198px;
+    top:255px;
+    right:16px;
     z-index:1000;
     width:83px;
     height:64px;
