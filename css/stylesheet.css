@@ -2053,8 +2053,13 @@ body {
 											}
 
 											.md blockquote {
-												border-left: 2px solid #E5E3DA;
-												color: #706F6F;
+												border-left: 2px solid #808080;
+										
+color: #706F6F;
+
+background-color: #f2f2f2;
+
+padding: 10px 10px;
 											}
 
 											.md h1, .md h2 {
@@ -2181,7 +2186,7 @@ body {
 
 						.submit-page .roundfield .title {
 							color: #4D5763;
-							text-transform: capitalize;
+
 						}
 
 					.submit-page .infobar {
@@ -2256,7 +2261,8 @@ body {
 
 						.search-page #search input[type=text] {
 							box-shadow: none !important;
-							font-size: 36px;
+							color: #000000!important;
+                                                        font-size: 24px;
 							padding: 0;
 							margin: 0;
 							border-radius: 0;
@@ -3287,85 +3293,81 @@ background-position:0 -0px /* Half the height of your image */
     
 /* link flair */
 .linkflairlabel {
-    padding: 1px 9px;
+    padding: 2px 6px;
     height: 17px;
     border-radius: 10px;
-    color: #FFF;
-    font-weight: lighter;
-    font-style: normal;
+    font-style: initial;
     font-variant: normal;
-    font-size: 12px;
+    font-size: 10px;
     cursor: default;
-    top: -2px;
+    top: 0px;
     text-transform: uppercase;
     display: table;
 }
 .thing.linkflair.linkflair-a .linkflairlabel {
-    background-color: #BDBDBD;
+    background-color: transparent;
+    border-width: thin;
+    border-color: #BDBDBD;
+    color: #BDBDBD;
 }
 .thing.linkflair.linkflair-b .linkflairlabel {
-    background-color: #6B6B6B;
+    background-color: transparent;
+    border-width: thin;
+    border-color: #6B6B6B;
+    color: #6B6B6B;
 }
 .thing.linkflair.linkflair-c .linkflairlabel {
-    background-color: #1C1C1C;
+    background-color: transparent;
+    border-width: thin;
+    border-color: #1C1C1C;
+    color: #1C1C1C;
 }
 .thing.linkflair.linkflair-d .linkflairlabel {
-    background-color: #E41C39;
+    background-color: transparent;
+    border-width: thin;
+    border-color: #E41C39;
+    color: #E41C39;
+}
+.thing.linkflair.linkflair-e .linkflairlabel {
+    background-color: transparent;
+    border-width: thin;
+    border-color: #981E2D;
+    color: #981E2D;
 }
 
 /* shadowstats */
 .flair-shadowstats{
-    font-family:monospace;
-    font-weight:bold;
-    font-size:13px !important;
-    line-height:17px;
-    text-align:center;
-    color:black;
+    font-weight:lighter;
+    font-size:16px !important;
+    line-height:18px;
+    text-align:right;
+    color:#F7F7F7;
     margin-top: 1px !important;
     border-style: solid !important;
-    border-width: 0px 1px 1px !important;
-    border-radius: 0px !important;
-    padding:4px 4px 4px 4px;
-    background-color: #E31E38;
+    border-width: 0px 0px 0px !important;
+    border-radius: 2px !important;
+    padding:3px 205px 4px 8px;
+    background-color: rgba(229, 229, 229, 0.12);
     position:absolute;
-    top:255px;
+    top:185px;
     right:16px;
     z-index:1000;
-    width:83px;
-    height:64px;
+    width:300px;
+    height:134px;
+    background-image: url(%%ticker%%);
+    background-position: 97px 0px !important;
+    background-repeat: no-repeat !important;
     /*filter:alpha(opacity=60) !important;
     opacity:.60 !important;*/
 }
 
 div.entry span.flair-shadowstats{
-    font-family:monospace;
-    font-weight:bold;
-    font-size:13px !important;
-    line-height:17px;
-    text-align:center;
-    color:black;
-    margin-top: 1px !important;
-    border-color: darkgray !important;
-    border-style: solid !important;
-    border-width: 0px 1px 1px !important;
-    border-radius: 0px !important;
-    padding:4px 4px 4px 4px;
-    background-color:rgb(240, 240, 240);
-    position:absolute;
-    top:18px;
-    left:498px;
-    z-index:1000;
-    width:83px;
-    height:64px;
-    /*filter:alpha(opacity=60) !important;
-    opacity:.60 !important;*/
     display:none;
 }
 
 .flair-shadowstats:before{
     content: " ";
-    margin-top:2px;
-    float:left;
-    height:64px;
-    width:13px;
+    margin-top: 1px !important;
+    height:300px;
+    width:134px;
 }
